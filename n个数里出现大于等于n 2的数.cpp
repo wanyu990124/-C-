@@ -14,3 +14,18 @@ int main() {
 	cout <<a[m]<<endl;    
 	return 0;
 }
+
+/*#include<vector> 
+#include<iostream> 
+#include<algorithm> 
+using namespace std; 
+int main() {    
+	int n;    
+	vector <int> vec;    
+	while (cin >> n) {
+		vec.push_back(n);
+	}
+	sort(vec.begin(), vec.end());        
+	cout << vec[vec.size()/2-1] << endl;    
+	return 0; 
+}*/
